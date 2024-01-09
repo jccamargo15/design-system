@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/jccamargo15.png',
     alt: 'José Camargo',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
